@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 9bb7205cf4ddf734783c20e087f4d821
+guid: c4b0aa2766b0ee54e8382f640d35fcc3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6568722399977064662
-    second: boy-player-idle-animation_0
+      213: 136712473642264944
+    second: boy-player-idle-animation-sheet_0
+  - first:
+      213: -4920888654177954869
+    second: boy-player-idle-animation-sheet_1
+  - first:
+      213: 9130508379995998094
+    second: boy-player-idle-animation-sheet_2
+  - first:
+      213: -1784974883647716263
+    second: boy-player-idle-animation-sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boy-player-idle-animation_0
+      name: boy-player-idle-animation-sheet_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 23
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a273731a7c537d4a0800000000000000
-      internalID: -6568722399977064662
+      spriteID: 079efcb3543b5e100800000000000000
+      internalID: 136712473642264944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy-player-idle-animation-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3197c47dd75bbb0800000000000000
+      internalID: -4920888654177954869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy-player-idle-animation-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8783600ff416be70800000000000000
+      internalID: 9130508379995998094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy-player-idle-animation-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9540f2fecce7a37e0800000000000000
+      internalID: -1784974883647716263
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 17a3b9ef9608bd2458adf99d31b31536
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +208,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boy-player-idle-animation_0: -6568722399977064662
+      boy-player-idle-animation-sheet_0: 136712473642264944
+      boy-player-idle-animation-sheet_1: -4920888654177954869
+      boy-player-idle-animation-sheet_2: 9130508379995998094
+      boy-player-idle-animation-sheet_3: -1784974883647716263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
