@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7821554274100778339}
   - component: {fileID: 313789934048876173}
   - component: {fileID: 4091769833631449123}
-  - component: {fileID: 8134650024379108006}
+  - component: {fileID: 4919850996127109703}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -132,6 +132,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 3307139647196107786}
+  speed: 1.5
+  animator: {fileID: 4919850996127109703}
+  spriteRenderer: {fileID: 1997428638781156779}
 --- !u!114 &313789934048876173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,7 +299,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.14129126, y: 0.20907736}
   m_EdgeRadius: 0
---- !u!95 &8134650024379108006
+--- !u!95 &4919850996127109703
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
