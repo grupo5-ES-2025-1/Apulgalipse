@@ -2,17 +2,32 @@ using UnityEngine;
 
 public class movimentoPulga : MonoBehaviour
 {
-    public Rigidbody2D rb;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
+public Transform player; // Reference to the player's transform
+public float speed = 2f; // Movement speed of the enemy
+    public float followRange = 5f; // Distance within which the enemy starts following
 
-    }
+public Animator animator; // Reference to the Animator component
 
-    // Update is called once per frame
     void Update()
-    {
+{
+// Calculate distance between enemy and player
+float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-    }
-    
+        // Check if player is within follow range
+        if (distanceToPlayer <= followRange)
+        {
+            // Move towards the player
+            animator.SetBool("isMoving", true); // Set the animator to moving state
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        }
+        // Optional: flip the enemy sprite based on player position
+        if (player.position.x < transform.position.x)
+        {
+            transform.localScale = new Vector3(-1, 1, 1); // Flip sprite to face left
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, 1, 1); // Unflip sprite to face right
+        }
+}
 }
