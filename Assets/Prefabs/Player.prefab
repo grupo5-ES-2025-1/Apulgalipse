@@ -380,7 +380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4919850996127109703}
   ataquePoint: {fileID: 6313856394602470601}
-  ataqueRange: 0.21
+  ataqueRange: 0.3
   enemyLayers:
     serializedVersion: 2
     m_Bits: 8
