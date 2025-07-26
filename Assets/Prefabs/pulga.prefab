@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1807239055306084698}
   - component: {fileID: 4510438630434619713}
   - component: {fileID: 4700300932056513079}
-  m_Layer: 0
+  - component: {fileID: 7341710111702950655}
+  m_Layer: 3
   m_Name: pulga
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -176,3 +177,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.26076758, y: 0.16814439}
   m_EdgeRadius: 0
+--- !u!114 &7341710111702950655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685981532597207250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86aa92115f8396a40a0e487dcde6c71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
