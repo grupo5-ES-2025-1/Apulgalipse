@@ -16,6 +16,7 @@ public class ataque : MonoBehaviour
     public void PerformAttack(InputAction.CallbackContext context)
     {
         if (context.performed && !isAttacking) {
+            animator.SetTrigger("Attack");
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(ataquePoint.position, ataqueRange, enemyLayers);
             foreach (Collider2D enemy in hitEnemies)
             {
