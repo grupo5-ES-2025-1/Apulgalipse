@@ -17,7 +17,6 @@ float distanceToPlayer = Vector2.Distance(transform.position, player.position);
         if (distanceToPlayer <= followRange)
         {
             // Move towards the player
-            animator.SetBool("isMoving", true); // Set the animator to moving state
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
         }
         // Optional: flip the enemy sprite based on player position
