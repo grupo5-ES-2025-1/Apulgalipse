@@ -39,6 +39,10 @@ public class StatsUI : MonoBehaviour
     {
         UpdateDamage();
         UpdateSpeed();
+        UpdateHealth();
+        UpdateDefense();
+        UpdateStamina();
+        UpdateLuck();
     }
 
     public void UpdateDamage()
@@ -49,6 +53,27 @@ public class StatsUI : MonoBehaviour
     public void UpdateSpeed()
     {
         statsSlots[1].GetComponentInChildren<TMP_Text>().text = "Speed: " + StatsManager.Instance.speed;
+    }
+
+    public void UpdateHealth()
+    {
+        statsSlots[2].GetComponentInChildren<TMP_Text>().text = "Health: " + StatsManager.Instance.maxHealth;
+    }
+
+    public void UpdateDefense()
+    {
+        statsSlots[3].GetComponentInChildren<TMP_Text>().text = "Defense: " + StatsManager.Instance.defense;
+
+    }
+
+    public void UpdateStamina()
+    {
+        statsSlots[4].GetComponentInChildren<TMP_Text>().text = "Stamina: " + StatsManager.Instance.stamina;
+    }
+
+    public void UpdateLuck()
+    {
+        statsSlots[5].GetComponentInChildren<TMP_Text>().text = "Luck: " + StatsManager.Instance.luck;
     }
 
 

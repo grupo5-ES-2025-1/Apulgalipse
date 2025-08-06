@@ -14,10 +14,15 @@ public class StatsManager : MonoBehaviour
 
     [Header("Movement Stats")]
     public int speed;
+    public int stamina;
 
     [Header("Health Stats")]
     public int maxHealth;
     public int currentHealth;
+    public int defense;
+
+    [Header("Extra Stats")]
+    public int luck;
 
     public void Awake()
     {
@@ -28,6 +33,6 @@ public class StatsManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
-        } 
+        }
     }
 }
