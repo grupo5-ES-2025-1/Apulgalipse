@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class movimentacaoPlayer : MonoBehaviour
-{
+{   
     [SerializeField] Rigidbody2D rb;
     public float speed = 3f;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
+
+    public GameObject inventory; // Reference to the inventory UI
 
     private int isMovingHash = Animator.StringToHash("isMoving");
     public void OnMove(InputAction.CallbackContext context)
@@ -23,4 +25,12 @@ public class movimentacaoPlayer : MonoBehaviour
         rb.linearVelocity = input * speed; // Adjust speed as necessary
 
     }
+    public void Inventory(InputAction.CallbackContext context)
+    { 
+        if (inventory != null)
+        {
+            inventory.SetActive(!inventory.activeSelf); // Toggle inventory visibility
+        }
+    }
+    
 }
