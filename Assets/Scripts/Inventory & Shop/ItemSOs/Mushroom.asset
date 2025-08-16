@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c600138673c910c378ae461f544fafe3, type: 3}
-  m_Name: ToiletPaper
+  m_Name: Mushroom
   m_EditorClassIdentifier: 
-  itemName: Toilet Paper
-  itemDescription: This item heals the player
-  icon: {fileID: 5122449979919942957, guid: 675b81a318086eaba843bb18bd2f3f01, type: 3}
+  itemName: Mushroom
+  itemDescription: Description
+  icon: {fileID: 8793915729297761979, guid: 1b1088f539f7f0c57a8d817070284d79, type: 3}
+  isGold: 0
   damage: 0
   speed: 0
   stamina: 0
   maxHealth: 0
-  currentHealth: 0
   defense: 0
   luck: 0
   duration: 0

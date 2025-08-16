@@ -7,6 +7,8 @@ public class ItemSO : ScriptableObject
     [TextArea] public string itemDescription;
     public Sprite icon;
 
+    public bool isGold;
+
     [Header("Stats")]
     public int damage;
     public int speed;
