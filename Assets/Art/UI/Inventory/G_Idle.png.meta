@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 675b81a318086eaba843bb18bd2f3f01
+guid: e6fe24ec0ab383ac383c7a61034a0351
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5122449979919942957
-    second: ToiletPaper_0
+      213: -7942359355602504142
+    second: G_Idle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,8 +73,8 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ToiletPaper_0
+      name: G_Idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1022
-        height: 1023
+        x: 47
+        y: 28
+        width: 45
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d25c5d8ed19961740800000000000000
-      internalID: 5122449979919942957
+      spriteID: 236ffca1f3217c190800000000000000
+      internalID: -7942359355602504142
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ToiletPaper_0: 5122449979919942957
+      G_Idle_0: -7942359355602504142
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
