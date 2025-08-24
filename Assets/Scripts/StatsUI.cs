@@ -35,7 +35,7 @@ public class StatsUI : MonoBehaviour
         }
     }
 
-    private void UpdateAllStats()
+    public void UpdateAllStats()
     {
         UpdateDamage();
         UpdateSpeed();
