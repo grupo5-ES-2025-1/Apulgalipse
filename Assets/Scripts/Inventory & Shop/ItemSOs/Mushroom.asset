@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Mushroom
   m_EditorClassIdentifier: 
   itemName: Mushroom
-  itemDescription: Description
+  itemDescription: Base Item
   icon: {fileID: 8793915729297761979, guid: 1b1088f539f7f0c57a8d817070284d79, type: 3}
   isGold: 0
-  damage: 0
-  speed: 0
-  stamina: 0
+  damage: 3
+  speed: 5
+  stamina: 2
   maxHealth: 0
-  defense: 0
-  luck: 0
+  currentHealth: 2
+  defense: 4
+  luck: 5
   duration: 0

@@ -14,6 +14,7 @@ public class ItemSO : ScriptableObject
     public int speed;
     public int stamina;
     public int maxHealth;
+    public int currentHealth;
     public int defense;
     public int luck;
 
