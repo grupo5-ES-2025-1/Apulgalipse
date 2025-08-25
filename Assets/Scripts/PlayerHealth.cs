@@ -3,23 +3,27 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int currentHealth;
-    public int maxHealth = 3;
+
     public HealthBar healthBar;
 
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        StatsManager.Instance.currentHealth = StatsManager.Instance.maxHealth;
+        healthBar.SetMaxHealth(StatsManager.Instance.maxHealth);
     }
 
     public void ChangeHealth(int amount)
     {
-        currentHealth += amount;
+        StatsManager.Instance.currentHealth += amount;
 
-        healthBar.SetHealth(currentHealth);
+        if (StatsManager.Instance.currentHealth > StatsManager.Instance.maxHealth)
+        {
+            StatsManager.Instance.currentHealth = StatsManager.Instance.maxHealth;
+        }
 
-        if (currentHealth <= 0)
+        healthBar.SetHealth(StatsManager.Instance.currentHealth);
+
+        if (StatsManager.Instance.currentHealth <= 0)
         {
             gameObject.SetActive(false);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload the current scene when health reaches 0
