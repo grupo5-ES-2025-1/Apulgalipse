@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 50fe0459fdfcfd64eb4b00e5e1365fa9
+guid: cd4788996c5402a46a3d88d464a7bb17
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5984386425049567677
-    second: girl-player-idle-animation_0
+      213: -6568722399977064662
+    second: boy-player-idle-animation_0
   - first:
-      213: -1045413761100733557
-    second: girl-player-idle-animation_1
+      213: -1373397785473313103
+    second: boy-player-idle-animation_1
   - first:
-      213: 5435750406907771531
-    second: girl-player-idle-animation_2
+      213: -3837401967346430350
+    second: boy-player-idle-animation_2
   - first:
-      213: -7813862483054503383
-    second: girl-player-idle-animation_3
+      213: 3854478656167181968
+    second: boy-player-idle-animation_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,12 +107,100 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boy-player-idle-animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a273731a7c537d4a0800000000000000
+      internalID: -6568722399977064662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy-player-idle-animation_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b61e8d9df5b0fce0800000000000000
+      internalID: -1373397785473313103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy-player-idle-animation_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e4eebfd3fcebac0800000000000000
+      internalID: -3837401967346430350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy-player-idle-animation_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e7b277aebdd7530800000000000000
+      internalID: 3854478656167181968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 638f7f8c5668e504380259532ffb1565
+    spriteID: 3cee957434f2af947be37c25d991a764
     internalID: 0
     vertices: []
     indices: 
@@ -123,7 +211,11 @@ TextureImporter:
       entries:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boy-player-idle-animation_0: -6568722399977064662
+      boy-player-idle-animation_1: -1373397785473313103
+      boy-player-idle-animation_2: -3837401967346430350
+      boy-player-idle-animation_3: 3854478656167181968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

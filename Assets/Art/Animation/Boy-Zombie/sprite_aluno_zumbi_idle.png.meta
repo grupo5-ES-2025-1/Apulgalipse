@@ -1,43 +1,22 @@
 fileFormatVersion: 2
-guid: 70c56efa8533e4349a7c0a42cc98fd85
+guid: 7be66ea422098ef49833a56ae5449c28
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7983435946441171379
-    second: boy-attack-animation_0
+      213: -5263618644861812671
+    second: sprite_aluno_zumbi_idle_0
   - first:
-      213: 2416426031463282513
-    second: boy-attack-animation_1
+      213: 6626020131318615157
+    second: sprite_aluno_zumbi_idle_1
   - first:
-      213: 6239738576533113629
-    second: boy-attack-animation_2
+      213: 4099058844480505591
+    second: sprite_aluno_zumbi_idle_2
   - first:
-      213: 1998921375258678495
-    second: boy-attack-animation_3
+      213: 5014204692817857883
+    second: sprite_aluno_zumbi_idle_3
   - first:
-      213: 2043148849917130268
-    second: boy-attack-animation_4
-  - first:
-      213: -4453793644034805074
-    second: boy-attack-animation_5
-  - first:
-      213: -3799295146373746003
-    second: boy-attack-animation_6
-  - first:
-      213: -1415909961071934336
-    second: boy-attack-animation_7
-  - first:
-      213: -1983922091223234341
-    second: boy-attack-animation_8
-  - first:
-      213: 558953692551334152
-    second: boy-attack-animation_9
-  - first:
-      213: 5848648208116068651
-    second: boy-attack-animation_10
-  - first:
-      213: -155804478035725171
-    second: boy-attack-animation_11
+      213: 6802412690353872985
+    second: sprite_aluno_zumbi_idle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boy-attack-animation_0
+      name: sprite_aluno_zumbi_idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4e1a450e43253190800000000000000
-      internalID: -7983435946441171379
+      spriteID: 14083e7fabed3f6b0800000000000000
+      internalID: -5263618644861812671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-attack-animation_1
+      name: sprite_aluno_zumbi_idle_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +149,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 157306f3caed88120800000000000000
-      internalID: 2416426031463282513
+      spriteID: 57c45d9043a54fb50800000000000000
+      internalID: 6626020131318615157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-attack-animation_2
+      name: sprite_aluno_zumbi_idle_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f60fa22d48c2e830800000000000000
+      internalID: 4099058844480505591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_aluno_zumbi_idle_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1bce810d21089650800000000000000
-      internalID: 6239738576533113629
+      spriteID: b5d418a0a98069540800000000000000
+      internalID: 5014204692817857883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-attack-animation_3
+      name: sprite_aluno_zumbi_idle_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,74 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd49a3a66689dbb10800000000000000
-      internalID: 1998921375258678495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-attack-animation_4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c16fe8ecd09ba5c10800000000000000
-      internalID: 2043148849917130268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-attack-animation_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea2b9682742f032c0800000000000000
-      internalID: -4453793644034805074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-attack-animation_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da2f683a131364bc0800000000000000
-      internalID: -3799295146373746003
+      spriteID: 950e6281d46076e50800000000000000
+      internalID: 6802412690353872985
       vertices: []
       indices: 
       edges: []
@@ -290,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6324224a527f4134abd0ba99f8156407
+    spriteID: 4d31283a28c5e5649a87eb86df375062
     internalID: 0
     vertices: []
     indices: 
@@ -300,15 +235,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boy-attack-animation_0: -7983435946441171379
-      boy-attack-animation_1: 2416426031463282513
-      boy-attack-animation_2: 6239738576533113629
-      boy-attack-animation_3: 1998921375258678495
-      boy-attack-animation_4: 2043148849917130268
-      boy-attack-animation_5: -4453793644034805074
-      boy-attack-animation_6: -3799295146373746003
+      sprite_aluno_zumbi_idle_0: -5263618644861812671
+      sprite_aluno_zumbi_idle_1: 6626020131318615157
+      sprite_aluno_zumbi_idle_2: 4099058844480505591
+      sprite_aluno_zumbi_idle_3: 5014204692817857883
+      sprite_aluno_zumbi_idle_4: 6802412690353872985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

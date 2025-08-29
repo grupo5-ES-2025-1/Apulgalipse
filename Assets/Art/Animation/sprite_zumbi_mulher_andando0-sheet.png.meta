@@ -1,43 +1,19 @@
 fileFormatVersion: 2
-guid: cc65ee695015478449c321a2d2b9176f
+guid: 0c2a1dd7e0d85c44e908fdd43ab97118
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7983435946441171379
-    second: boy-attack-animation_0
+      213: -1753126638442430925
+    second: sprite_zumbi_mulher_andando0-sheet_0
   - first:
-      213: 2416426031463282513
-    second: boy-attack-animation_1
+      213: -5608784562576545395
+    second: sprite_zumbi_mulher_andando0-sheet_1
   - first:
-      213: 6239738576533113629
-    second: boy-attack-animation_2
+      213: 2830077053690134034
+    second: sprite_zumbi_mulher_andando0-sheet_2
   - first:
-      213: 1998921375258678495
-    second: boy-attack-animation_3
-  - first:
-      213: 2043148849917130268
-    second: boy-attack-animation_4
-  - first:
-      213: -4453793644034805074
-    second: boy-attack-animation_5
-  - first:
-      213: -3799295146373746003
-    second: boy-attack-animation_6
-  - first:
-      213: -1415909961071934336
-    second: boy-attack-animation_7
-  - first:
-      213: -1983922091223234341
-    second: boy-attack-animation_8
-  - first:
-      213: 558953692551334152
-    second: boy-attack-animation_9
-  - first:
-      213: 5848648208116068651
-    second: boy-attack-animation_10
-  - first:
-      213: -155804478035725171
-    second: boy-attack-animation_11
+      213: -7577016957234256614
+    second: sprite_zumbi_mulher_andando0-sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boy-attack-animation_0
+      name: sprite_zumbi_mulher_andando0-sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4e1a450e43253190800000000000000
-      internalID: -7983435946441171379
+      spriteID: 33e3d5d5c94aba7e0800000000000000
+      internalID: -1753126638442430925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-attack-animation_1
+      name: sprite_zumbi_mulher_andando0-sheet_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +146,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 157306f3caed88120800000000000000
-      internalID: 2416426031463282513
+      spriteID: d892eed28289922b0800000000000000
+      internalID: -5608784562576545395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-attack-animation_2
+      name: sprite_zumbi_mulher_andando0-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e3f200614764720800000000000000
+      internalID: 2830077053690134034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_zumbi_mulher_andando0-sheet_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,96 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1bce810d21089650800000000000000
-      internalID: 6239738576533113629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-attack-animation_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd49a3a66689dbb10800000000000000
-      internalID: 1998921375258678495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-attack-animation_4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c16fe8ecd09ba5c10800000000000000
-      internalID: 2043148849917130268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-attack-animation_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea2b9682742f032c0800000000000000
-      internalID: -4453793644034805074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-attack-animation_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da2f683a131364bc0800000000000000
-      internalID: -3799295146373746003
+      spriteID: a15e0fed83709d690800000000000000
+      internalID: -7577016957234256614
       vertices: []
       indices: 
       edges: []
@@ -290,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6324224a527f4134abd0ba99f8156407
+    spriteID: 49a2fa5b04a22b84eae52d28c5cf8bed
     internalID: 0
     vertices: []
     indices: 
@@ -300,15 +210,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boy-attack-animation_0: -7983435946441171379
-      boy-attack-animation_1: 2416426031463282513
-      boy-attack-animation_2: 6239738576533113629
-      boy-attack-animation_3: 1998921375258678495
-      boy-attack-animation_4: 2043148849917130268
-      boy-attack-animation_5: -4453793644034805074
-      boy-attack-animation_6: -3799295146373746003
+      sprite_zumbi_mulher_andando0-sheet_0: -1753126638442430925
+      sprite_zumbi_mulher_andando0-sheet_1: -5608784562576545395
+      sprite_zumbi_mulher_andando0-sheet_2: 2830077053690134034
+      sprite_zumbi_mulher_andando0-sheet_3: -7577016957234256614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

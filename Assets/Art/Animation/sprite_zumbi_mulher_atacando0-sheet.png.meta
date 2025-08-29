@@ -1,55 +1,31 @@
 fileFormatVersion: 2
-guid: 0b1dc48a24bd3f742846172b1acab64c
+guid: 1f3cc90f171130c4d8d93619170d3c78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7156804828718195382
-    second: boy-walking-animation_0
+      213: 1588761276916569917
+    second: sprite_zumbi_mulher_atacando0-sheet_0
   - first:
-      213: -9199967862157314876
-    second: boy-walking-animation_1
+      213: -4930393952568337946
+    second: sprite_zumbi_mulher_atacando0-sheet_1
   - first:
-      213: -3983868444659582723
-    second: boy-walking-animation_2
+      213: -5791823714403572617
+    second: sprite_zumbi_mulher_atacando0-sheet_2
   - first:
-      213: -6841594716056807770
-    second: boy-walking-animation_3
+      213: -5786503528533117400
+    second: sprite_zumbi_mulher_atacando0-sheet_3
   - first:
-      213: -5572747263684332723
-    second: boy-walking-animation_4
+      213: -3088506632988375486
+    second: sprite_zumbi_mulher_atacando0-sheet_4
   - first:
-      213: -3389049034103695646
-    second: boy-walking-animation_5
+      213: -6279823718163018863
+    second: sprite_zumbi_mulher_atacando0-sheet_5
   - first:
-      213: -7218231371596030986
-    second: boy-walking-animation_6
+      213: 4557747371923252378
+    second: sprite_zumbi_mulher_atacando0-sheet_6
   - first:
-      213: -8676007546186779043
-    second: boy-walking-animation_7
-  - first:
-      213: -7440944115230076697
-    second: boy-walking-animation_8
-  - first:
-      213: -7919895624431605497
-    second: boy-walking-animation_9
-  - first:
-      213: 2269254954651474413
-    second: boy-walking-animation_10
-  - first:
-      213: 3880574678851667046
-    second: boy-walking-animation_11
-  - first:
-      213: -4752537293620083892
-    second: boy-walking-animation_12
-  - first:
-      213: 2804088512932649065
-    second: boy-walking-animation_13
-  - first:
-      213: 2935745961458792631
-    second: boy-walking-animation_14
-  - first:
-      213: -84931779569185271
-    second: boy-walking-animation_15
+      213: -5846863165251611198
+    second: sprite_zumbi_mulher_atacando0-sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -145,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boy-walking-animation_0
+      name: sprite_zumbi_mulher_atacando0-sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4d93793debedac90800000000000000
-      internalID: -7156804828718195382
+      spriteID: d371287b6f96c0610800000000000000
+      internalID: 1588761276916569917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_1
+      name: sprite_zumbi_mulher_atacando0-sheet_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +158,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c47a1f09f5235080800000000000000
-      internalID: -9199967862157314876
+      spriteID: 6e91e6e82d8b39bb0800000000000000
+      internalID: -4930393952568337946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_2
+      name: sprite_zumbi_mulher_atacando0-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774aa45a40f4f9fa0800000000000000
+      internalID: -5791823714403572617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_zumbi_mulher_atacando0-sheet_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df87d2cc1c476b8c0800000000000000
-      internalID: -3983868444659582723
+      spriteID: 8263d32f2b532bfa0800000000000000
+      internalID: -5786503528533117400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_3
+      name: sprite_zumbi_mulher_atacando0-sheet_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +224,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a69e34aad5cd01a0800000000000000
-      internalID: -6841594716056807770
+      spriteID: 2464a46b49b6325d0800000000000000
+      internalID: -3088506632988375486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_4
+      name: sprite_zumbi_mulher_atacando0-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b02daa99599d8a0800000000000000
+      internalID: -6279823718163018863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_zumbi_mulher_atacando0-sheet_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d43b01da3ef99a2b0800000000000000
-      internalID: -5572747263684332723
+      spriteID: a94a477361f504f30800000000000000
+      internalID: 4557747371923252378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_5
+      name: sprite_zumbi_mulher_atacando0-sheet_7
       rect:
         serializedVersion: 2
-        x: 240
+        x: 224
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,52 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e65ed30cdda7f0d0800000000000000
-      internalID: -3389049034103695646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-walking-animation_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fb1075bfc0b3db90800000000000000
-      internalID: -7218231371596030986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-walking-animation_7
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d56bdecaa11a89780800000000000000
-      internalID: -8676007546186779043
+      spriteID: 2c59cd0ede4cbdea0800000000000000
+      internalID: -5846863165251611198
       vertices: []
       indices: 
       edges: []
@@ -324,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 64b8130724ea14e4ea7f98764711cb4c
+    spriteID: 0661c6412c6258649830813dcbc68c63
     internalID: 0
     vertices: []
     indices: 
@@ -334,16 +310,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boy-walking-animation_0: -7156804828718195382
-      boy-walking-animation_1: -9199967862157314876
-      boy-walking-animation_2: -3983868444659582723
-      boy-walking-animation_3: -6841594716056807770
-      boy-walking-animation_4: -5572747263684332723
-      boy-walking-animation_5: -3389049034103695646
-      boy-walking-animation_6: -7218231371596030986
-      boy-walking-animation_7: -8676007546186779043
+      sprite_zumbi_mulher_atacando0-sheet_0: 1588761276916569917
+      sprite_zumbi_mulher_atacando0-sheet_1: -4930393952568337946
+      sprite_zumbi_mulher_atacando0-sheet_2: -5791823714403572617
+      sprite_zumbi_mulher_atacando0-sheet_3: -5786503528533117400
+      sprite_zumbi_mulher_atacando0-sheet_4: -3088506632988375486
+      sprite_zumbi_mulher_atacando0-sheet_5: -6279823718163018863
+      sprite_zumbi_mulher_atacando0-sheet_6: 4557747371923252378
+      sprite_zumbi_mulher_atacando0-sheet_7: -5846863165251611198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

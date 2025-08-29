@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: c4b0aa2766b0ee54e8382f640d35fcc3
+guid: 49e576666d06e614da1351dd681205d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 136712473642264944
-    second: boy-player-idle-animation-sheet_0
+      213: -7490100985345544367
+    second: zumbi_mulher_idle_0
   - first:
-      213: -4920888654177954869
-    second: boy-player-idle-animation-sheet_1
+      213: -8666949437188247399
+    second: zumbi_mulher_idle_1
   - first:
-      213: 9130508379995998094
-    second: boy-player-idle-animation-sheet_2
+      213: -2265767423249598423
+    second: zumbi_mulher_idle_2
   - first:
-      213: -1784974883647716263
-    second: boy-player-idle-animation-sheet_3
+      213: 8808704356485123013
+    second: zumbi_mulher_idle_3
+  - first:
+      213: -8245506843526363600
+    second: zumbi_mulher_idle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boy-player-idle-animation-sheet_0
+      name: zumbi_mulher_idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 079efcb3543b5e100800000000000000
-      internalID: 136712473642264944
+      spriteID: 15fecac86d0dd0890800000000000000
+      internalID: -7490100985345544367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-player-idle-animation-sheet_1
+      name: zumbi_mulher_idle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -146,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc3197c47dd75bbb0800000000000000
-      internalID: -4920888654177954869
+      spriteID: 9907f16086fc8b780800000000000000
+      internalID: -8666949437188247399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-player-idle-animation-sheet_2
+      name: zumbi_mulher_idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -168,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8783600ff416be70800000000000000
-      internalID: 9130508379995998094
+      spriteID: 9283e8978806e80e0800000000000000
+      internalID: -2265767423249598423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-player-idle-animation-sheet_3
+      name: zumbi_mulher_idle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -190,8 +193,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9540f2fecce7a37e0800000000000000
-      internalID: -1784974883647716263
+      spriteID: 5cb4bb311fdce3a70800000000000000
+      internalID: 8808704356485123013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi_mulher_idle_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360f8e5633129d80800000000000000
+      internalID: -8245506843526363600
       vertices: []
       indices: 
       edges: []
@@ -200,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 17a3b9ef9608bd2458adf99d31b31536
+    spriteID: 61d3945dd1fc2da4cbca35147e972bbe
     internalID: 0
     vertices: []
     indices: 
@@ -212,10 +237,11 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boy-player-idle-animation-sheet_0: 136712473642264944
-      boy-player-idle-animation-sheet_1: -4920888654177954869
-      boy-player-idle-animation-sheet_2: 9130508379995998094
-      boy-player-idle-animation-sheet_3: -1784974883647716263
+      zumbi_mulher_idle_0: -7490100985345544367
+      zumbi_mulher_idle_1: -8666949437188247399
+      zumbi_mulher_idle_2: -2265767423249598423
+      zumbi_mulher_idle_3: 8808704356485123013
+      zumbi_mulher_idle_4: -8245506843526363600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,17 +1,16 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-public class ataque : MonoBehaviour
+public class PlayerAttack : MonoBehaviour
 {
 
-    public Animator animator;
+    [SerializeField] private Animator animator;
+    [SerializeField] private Transform ataquePoint;
+    [SerializeField] private float ataqueRange = 0.5f;
+    [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private int vida = 5;
+
     private bool isAttacking;
-    public Transform ataquePoint;
-    public float ataqueRange = 0.5f;
-    public LayerMask enemyLayers;
-
-    public int vida = 5;
-
     void Update()
     {
 

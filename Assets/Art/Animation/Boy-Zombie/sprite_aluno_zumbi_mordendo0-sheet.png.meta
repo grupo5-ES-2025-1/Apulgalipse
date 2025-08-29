@@ -1,55 +1,28 @@
 fileFormatVersion: 2
-guid: 0b1dc48a24bd3f742846172b1acab64c
+guid: 20f1ad201093adc4993c1c37f69ce275
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7156804828718195382
-    second: boy-walking-animation_0
+      213: -4279259098625195289
+    second: sprite_aluno_zumbi_mordendo0-sheet_0
   - first:
-      213: -9199967862157314876
-    second: boy-walking-animation_1
+      213: 4413133607439422782
+    second: sprite_aluno_zumbi_mordendo0-sheet_1
   - first:
-      213: -3983868444659582723
-    second: boy-walking-animation_2
+      213: 7410127844057588496
+    second: sprite_aluno_zumbi_mordendo0-sheet_2
   - first:
-      213: -6841594716056807770
-    second: boy-walking-animation_3
+      213: 32324235141681288
+    second: sprite_aluno_zumbi_mordendo0-sheet_3
   - first:
-      213: -5572747263684332723
-    second: boy-walking-animation_4
+      213: -3354803405247025288
+    second: sprite_aluno_zumbi_mordendo0-sheet_4
   - first:
-      213: -3389049034103695646
-    second: boy-walking-animation_5
+      213: 8444953163403787094
+    second: sprite_aluno_zumbi_mordendo0-sheet_5
   - first:
-      213: -7218231371596030986
-    second: boy-walking-animation_6
-  - first:
-      213: -8676007546186779043
-    second: boy-walking-animation_7
-  - first:
-      213: -7440944115230076697
-    second: boy-walking-animation_8
-  - first:
-      213: -7919895624431605497
-    second: boy-walking-animation_9
-  - first:
-      213: 2269254954651474413
-    second: boy-walking-animation_10
-  - first:
-      213: 3880574678851667046
-    second: boy-walking-animation_11
-  - first:
-      213: -4752537293620083892
-    second: boy-walking-animation_12
-  - first:
-      213: 2804088512932649065
-    second: boy-walking-animation_13
-  - first:
-      213: 2935745961458792631
-    second: boy-walking-animation_14
-  - first:
-      213: -84931779569185271
-    second: boy-walking-animation_15
+      213: -3115329614300039134
+    second: sprite_aluno_zumbi_mordendo0-sheet_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -145,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boy-walking-animation_0
+      name: sprite_aluno_zumbi_mordendo0-sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4d93793debedac90800000000000000
-      internalID: -7156804828718195382
+      spriteID: 7e24694b5840d94c0800000000000000
+      internalID: -4279259098625195289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_1
+      name: sprite_aluno_zumbi_mordendo0-sheet_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +155,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c47a1f09f5235080800000000000000
-      internalID: -9199967862157314876
+      spriteID: e35d3c952a99e3d30800000000000000
+      internalID: 4413133607439422782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_2
+      name: sprite_aluno_zumbi_mordendo0-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013a84d730016d660800000000000000
+      internalID: 7410127844057588496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_aluno_zumbi_mordendo0-sheet_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df87d2cc1c476b8c0800000000000000
-      internalID: -3983868444659582723
+      spriteID: 880914978b6d27000800000000000000
+      internalID: 32324235141681288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_3
+      name: sprite_aluno_zumbi_mordendo0-sheet_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +221,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a69e34aad5cd01a0800000000000000
-      internalID: -6841594716056807770
+      spriteID: 87feaf2d3185171d0800000000000000
+      internalID: -3354803405247025288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy-walking-animation_4
+      name: sprite_aluno_zumbi_mordendo0-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b7e79a820823570800000000000000
+      internalID: 8444953163403787094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_aluno_zumbi_mordendo0-sheet_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 48
-        height: 48
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,74 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d43b01da3ef99a2b0800000000000000
-      internalID: -5572747263684332723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-walking-animation_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e65ed30cdda7f0d0800000000000000
-      internalID: -3389049034103695646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-walking-animation_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fb1075bfc0b3db90800000000000000
-      internalID: -7218231371596030986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boy-walking-animation_7
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d56bdecaa11a89780800000000000000
-      internalID: -8676007546186779043
+      spriteID: 2283465b83024c4d0800000000000000
+      internalID: -3115329614300039134
       vertices: []
       indices: 
       edges: []
@@ -324,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 64b8130724ea14e4ea7f98764711cb4c
+    spriteID: cc278be78c1171946ac0321738344912
     internalID: 0
     vertices: []
     indices: 
@@ -334,16 +285,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boy-walking-animation_0: -7156804828718195382
-      boy-walking-animation_1: -9199967862157314876
-      boy-walking-animation_2: -3983868444659582723
-      boy-walking-animation_3: -6841594716056807770
-      boy-walking-animation_4: -5572747263684332723
-      boy-walking-animation_5: -3389049034103695646
-      boy-walking-animation_6: -7218231371596030986
-      boy-walking-animation_7: -8676007546186779043
+      sprite_aluno_zumbi_mordendo0-sheet_0: -4279259098625195289
+      sprite_aluno_zumbi_mordendo0-sheet_1: 4413133607439422782
+      sprite_aluno_zumbi_mordendo0-sheet_2: 7410127844057588496
+      sprite_aluno_zumbi_mordendo0-sheet_3: 32324235141681288
+      sprite_aluno_zumbi_mordendo0-sheet_4: -3354803405247025288
+      sprite_aluno_zumbi_mordendo0-sheet_5: 8444953163403787094
+      sprite_aluno_zumbi_mordendo0-sheet_6: -3115329614300039134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
