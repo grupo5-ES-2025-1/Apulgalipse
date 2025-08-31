@@ -1,0 +1,590 @@
+[
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "a771c7db-131c-4941-964a-7c40c94f9e2c"
+    },
+    "FileName": "CT002.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT002.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 61,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 6 caracteres por \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "61079bcc-2bac-430b-94fe-7a51380d5165"
+    },
+    "FileName": "CT003.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT003.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 47,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 11 caracteres por \u0027\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "f1dd80b3-8eaa-463b-84a9-b4486ea4dc39"
+    },
+    "FileName": "CT001.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT001.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 24,
+        "CharNumber": 17,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 24,
+        "CharNumber": 43,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 9 caracteres."
+      },
+      {
+        "LineNumber": 24,
+        "CharNumber": 60,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 24,
+        "CharNumber": 95,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 25,
+        "CharNumber": 17,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 25,
+        "CharNumber": 49,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 3 caracteres."
+      },
+      {
+        "LineNumber": 25,
+        "CharNumber": 60,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 25,
+        "CharNumber": 95,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 26,
+        "CharNumber": 17,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 26,
+        "CharNumber": 62,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      },
+      {
+        "LineNumber": 27,
+        "CharNumber": 17,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 27,
+        "CharNumber": 60,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 27,
+        "CharNumber": 95,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 28,
+        "CharNumber": 62,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      },
+      {
+        "LineNumber": 32,
+        "CharNumber": 26,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      },
+      {
+        "LineNumber": 32,
+        "CharNumber": 58,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Excluir 1 caracteres."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "81372fe7-2af9-46a7-b483-eb206b4f8b2d"
+    },
+    "FileName": "CT005.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT005.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 21,
+        "CharNumber": 12,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 25,
+        "CharNumber": 10,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 25,
+        "CharNumber": 15,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      },
+      {
+        "LineNumber": 25,
+        "CharNumber": 16,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "59935ca4-8aec-4bf0-8d7b-9cc6ef8159df"
+    },
+    "FileName": "CT004.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT004.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 13,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 14 caracteres por \u0027\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      },
+      {
+        "LineNumber": 22,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 24 caracteres por \u0027\\r\\n\\r\\n\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      },
+      {
+        "LineNumber": 70,
+        "CharNumber": 16,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "c1d382cf-6ee5-412c-8c9d-51af0b6dec21"
+    },
+    "FileName": "StatsManager.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\StatsManager.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 86,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 14 caracteres por \u0027\\r\\n\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "b7020913-8ca9-4dd2-b705-32c0d1507a41"
+    },
+    "FileName": "EnemyCombat.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\EnemyCombat.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 8,
+        "CharNumber": 55,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 1 caracteres por \u0027\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "f85e5237-e5d2-4add-b3a8-1a6afab8bb5f"
+    },
+    "FileName": "PlayerMovement.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 36,
+        "CharNumber": 6,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 11 caracteres por \u0027\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "e796b3e4-d296-42d9-96f5-b17897436674"
+    },
+    "FileName": "movimentoPulga.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\movimentoPulga.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 5,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 5,
+        "CharNumber": 25,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 1 caracteres por \u0027\\s\u0027."
+      },
+      {
+        "LineNumber": 6,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 7,
+        "CharNumber": 35,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 1 caracteres por \u0027\\s\u0027."
+      },
+      {
+        "LineNumber": 9,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 12,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 13,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 14,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 31,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "1f42ba77-d856-47ae-9868-f5a97f741385"
+    },
+    "FileName": "PlayerAttack.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\Player\\PlayerAttack.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 41,
+        "CharNumber": 11,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "3de52a8f-8ce8-498c-b970-842bf842a9a5"
+    },
+    "FileName": "HealthBar.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\HealthBar.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 25,
+        "CharNumber": 28,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 1 caracteres por \u0027\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      },
+      {
+        "LineNumber": 30,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 6 caracteres por \u0027\\r\\n\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "84ffce26-3a20-4125-a93b-f2bb099441c1"
+    },
+    "FileName": "centralizar.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\centralizar.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 5,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 12 caracteres por \u0027\\r\\n\\r\\n\\s\\s\\s\\s\u0027."
+      },
+      {
+        "LineNumber": 7,
+        "CharNumber": 39,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 6 caracteres por \u0027\\r\\n\\s\\s\\s\\s\u0027."
+      },
+      {
+        "LineNumber": 10,
+        "CharNumber": 8,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      },
+      {
+        "LineNumber": 10,
+        "CharNumber": 100,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 9 caracteres por \u0027\\r\\n\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "ca3fbb8e-40ba-47e7-802a-cd6af9acf7e4"
+    },
+    "FileName": "inventario.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\inventario.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 10,
+        "CharNumber": 8,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\u0022."
+      },
+      {
+        "LineNumber": 20,
+        "CharNumber": 10,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 14 caracteres por \u0027\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      },
+      {
+        "LineNumber": 22,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 23,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 24,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 26,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 27,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 28,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 30,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 31,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 32,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 33,
+        "CharNumber": 9,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Inserir \u0022\\s\\s\\s\\s\u0022."
+      },
+      {
+        "LineNumber": 35,
+        "CharNumber": 1,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 14 caracteres por \u0027\\r\\n\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "40d5561a-fae7-497d-b133-c315f60bf97f"
+    },
+    "FileName": "Zombie.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\Zombie.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 109,
+        "CharNumber": 38,
+        "DiagnosticId": "WHITESPACE",
+        "FormatDescription": "Corrigir a formata\u00E7\u00E3o de espa\u00E7o em branco. Substituir 21 caracteres por \u0027\\r\\n\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s\u0027."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "61079bcc-2bac-430b-94fe-7a51380d5165"
+    },
+    "FileName": "CT003.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT003.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 66,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Corrigir a nova linha final. Inserir \u0022\\r\\n\u0022."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "81372fe7-2af9-46a7-b483-eb206b4f8b2d"
+    },
+    "FileName": "CT005.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT005.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 39,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Corrigir a nova linha final. Inserir \u0022\\r\\n\u0022."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "21237eab-7d9a-4b70-8361-3f5a0d9d29b6"
+      },
+      "Id": "59935ca4-8aec-4bf0-8d7b-9cc6ef8159df"
+    },
+    "FileName": "CT004.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Tests\\PlayMode\\CT004.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 87,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Corrigir a nova linha final. Inserir \u0022\\r\\n\u0022."
+      }
+    ]
+  },
+  {
+    "DocumentId": {
+      "ProjectId": {
+        "Id": "15f36d02-9340-4489-a173-53c748ca88f6"
+      },
+      "Id": "e796b3e4-d296-42d9-96f5-b17897436674"
+    },
+    "FileName": "movimentoPulga.cs",
+    "FilePath": "C:\\Users\\farra\\OneDrive\\\u00C1rea de Trabalho\\Apulgalipse\\Assets\\Scripts\\movimentoPulga.cs",
+    "FileChanges": [
+      {
+        "LineNumber": 32,
+        "CharNumber": 2,
+        "DiagnosticId": "FINALNEWLINE",
+        "FormatDescription": "Corrigir a nova linha final. Inserir \u0022\\r\\n\u0022."
+      }
+    ]
+  }
+]
