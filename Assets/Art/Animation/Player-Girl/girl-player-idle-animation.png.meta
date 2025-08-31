@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 1b1088f539f7f0c57a8d817070284d79
+guid: 73a74080d635e234590a0a238596ca2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793915729297761979
-    second: 03_0
+      213: 5984386425049567677
+    second: girl-player-idle-animation_0
+  - first:
+      213: -1045413761100733557
+    second: girl-player-idle-animation_1
+  - first:
+      213: 5435750406907771531
+    second: girl-player-idle-animation_2
+  - first:
+      213: -7813862483054503383
+    second: girl-player-idle-animation_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 03_0
+      name: girl-player-idle-animation_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 14
-        width: 40
-        height: 39
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb6638d73c34a0a70800000000000000
-      internalID: 8793915729297761979
+      spriteID: db1dfb73fbfcc0350800000000000000
+      internalID: 5984386425049567677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl-player-idle-animation_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83294e19b1fd71f0800000000000000
+      internalID: -1045413761100733557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl-player-idle-animation_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a3c6bf13aaf6b40800000000000000
+      internalID: 5435750406907771531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl-player-idle-animation_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ad8c5a8759f8390800000000000000
+      internalID: -7813862483054503383
       vertices: []
       indices: 
       edges: []
@@ -138,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b2c3a6f372b8ad14fb87f5cc5f0b6c86
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +208,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      03_0: 8793915729297761979
+      girl-player-idle-animation_0: 5984386425049567677
+      girl-player-idle-animation_1: -1045413761100733557
+      girl-player-idle-animation_2: 5435750406907771531
+      girl-player-idle-animation_3: -7813862483054503383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

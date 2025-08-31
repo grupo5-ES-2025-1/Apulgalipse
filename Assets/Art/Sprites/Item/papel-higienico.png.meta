@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1b1088f539f7f0c57a8d817070284d79
+guid: 770c667bd410d5540a9b77373437f60f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793915729297761979
-    second: 03_0
+      213: 1106524008785709368
+    second: papel-higienico_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 03_0
+      name: papel-higienico_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 14
-        width: 40
-        height: 39
+        x: 8
+        y: 4
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb6638d73c34a0a70800000000000000
-      internalID: 8793915729297761979
+      spriteID: 8390d1f29b92b5f00800000000000000
+      internalID: 1106524008785709368
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      03_0: 8793915729297761979
+      papel-higienico_0: 1106524008785709368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

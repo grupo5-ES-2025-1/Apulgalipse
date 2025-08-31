@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1b1088f539f7f0c57a8d817070284d79
+guid: e749963d4703a034fac796f0d3acd25b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793915729297761979
-    second: 03_0
+      213: 3912740749442532929
+    second: apagador_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 03_0
+      name: apagador_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 14
-        width: 40
-        height: 39
+        x: 6
+        y: 9
+        width: 21
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb6638d73c34a0a70800000000000000
-      internalID: 8793915729297761979
+      spriteID: 146c7b42bf8dc4630800000000000000
+      internalID: 3912740749442532929
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      03_0: 8793915729297761979
+      apagador_0: 3912740749442532929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

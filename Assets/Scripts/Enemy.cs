@@ -20,7 +20,7 @@ public abstract class Enemy : MonoBehaviour
     // Agora pode ser sobrescrito
     protected virtual void Start() { }
 
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
         health -= damage;
         if (health <= 0)

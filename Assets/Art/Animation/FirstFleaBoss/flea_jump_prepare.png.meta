@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 1b1088f539f7f0c57a8d817070284d79
+guid: 146145a9f6926a84680708d261f9b481
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793915729297761979
-    second: 03_0
+      213: -6762086494365063014
+    second: flea_jump_prepare_0
+  - first:
+      213: -5616687314328542111
+    second: flea_jump_prepare_1
+  - first:
+      213: 8763057700134834091
+    second: flea_jump_prepare_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +102,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 03_0
+      name: flea_jump_prepare_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 14
-        width: 40
-        height: 39
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb6638d73c34a0a70800000000000000
-      internalID: 8793915729297761979
+      spriteID: a9867e2192e3822a0800000000000000
+      internalID: -6762086494365063014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flea_jump_prepare_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164210765a48d02b0800000000000000
+      internalID: -5616687314328542111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flea_jump_prepare_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafc9c2bc82ac9970800000000000000
+      internalID: 8763057700134834091
       vertices: []
       indices: 
       edges: []
@@ -138,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 72c8bf0ee1acaff42b63d502d5bef2a0
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +183,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      03_0: 8793915729297761979
+      flea_jump_prepare_0: -6762086494365063014
+      flea_jump_prepare_1: -5616687314328542111
+      flea_jump_prepare_2: 8763057700134834091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
