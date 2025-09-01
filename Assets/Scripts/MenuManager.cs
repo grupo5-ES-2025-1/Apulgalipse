@@ -10,7 +10,7 @@ public class MenuManager : MonoBehaviour
 
     public void StartNewGame()
     {
-        SceneManager.LoadScene("Fase1");
+        SceneManager.LoadScene("Floor 0");
     }
 
     public void OpenConfig()

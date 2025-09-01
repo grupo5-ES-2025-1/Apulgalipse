@@ -33,13 +33,16 @@ public class LootPickupTests
         var player = new GameObject("Player");
         player.tag = "Player";
         var rbP = player.AddComponent<Rigidbody2D>();
-        rbP.isKinematic = true;
+        rbP.bodyType = RigidbodyType2D.Kinematic;
         var colP = player.AddComponent<BoxCollider2D>();
         colP.isTrigger = false;
 
         var lootGO = new GameObject("Loot");
         var rbL = lootGO.AddComponent<Rigidbody2D>();
-        rbL.isKinematic = true;
+        rbP.bodyType = RigidbodyType2D.Kinematic;
+        // rbP.isKinematic = true; // Substituído por bodyType
+
+        rbL.bodyType = RigidbodyType2D.Kinematic;
         var colL = lootGO.AddComponent<BoxCollider2D>();
         colL.isTrigger = true;
 
