@@ -3,6 +3,7 @@ using TMPro;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -14,11 +15,35 @@ public class InventoryManager : MonoBehaviour
     public GameObject lootPrefab;
     public Transform player;
 
+    public CanvasGroup canvasGroup;
+    private bool statsOpen = false;
+
     private void Start()
     {
         foreach (var slot in itemSlots)
         {
             slot.UpdateUI();
+        }
+    }
+
+    private void Update()
+    {
+        // Press I to toggle the Inventory
+        if (Keyboard.current.iKey.wasPressedThisFrame)
+        {
+            if (statsOpen)
+            {
+                // Time.timeScale = 1;
+                statsOpen = false;
+                canvasGroup.alpha = 0;
+            }
+            else
+            {
+                // Time.timeScale = 0;
+                statsOpen = true;
+                canvasGroup.alpha = 1;
+
+            }
         }
     }
 
