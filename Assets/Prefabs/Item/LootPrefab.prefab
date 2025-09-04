@@ -108,7 +108,8 @@ MonoBehaviour:
   itemSo: {fileID: 0}
   sr: {fileID: 4874879258737950403}
   anim: {fileID: 362243277642035310}
-  quantity: 2
+  canBePickedUp: 1
+  quantity: 1
 --- !u!1 &7914422769461957447
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +191,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.25, y: 1.21875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

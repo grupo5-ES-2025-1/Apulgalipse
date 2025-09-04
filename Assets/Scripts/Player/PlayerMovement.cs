@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    [Header("Configurações")]
+    [Header("Configuraï¿½ï¿½es")]
     [SerializeField] private float speed = 3f;
 
     [Header("UI")]
@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Ataque")]
     [SerializeField] private Transform attackPoint; // Attack point do player
-    [SerializeField] private float attackOffsetX = 0.5f; // Distância horizontal do player
+    [SerializeField] private float attackOffsetX = 0.5f; // Distï¿½ncia horizontal do player
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -29,8 +29,7 @@ public class PlayerMovement : MonoBehaviour
             spriteRenderer.flipX = false; // Unflip sprite for right movement
         }
         animator.SetFloat("magnitude", input.magnitude);
-        rb.linearVelocity = input * speed; // Adjust speed as necessary
-
+        rb.linearVelocity = input * StatsManager.Instance.speed;
     }
     public void Inventory(InputAction.CallbackContext context)
     { 
@@ -42,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        // Atualiza posição do attackPoint de acordo com a direção do player
+        // Atualiza posiï¿½ï¿½o do attackPoint de acordo com a direï¿½ï¿½o do player
         if (attackPoint != null)
         {
             attackPoint.localPosition = new Vector3(

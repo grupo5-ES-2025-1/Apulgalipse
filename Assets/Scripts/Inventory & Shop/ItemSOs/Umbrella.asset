@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c600138673c910c378ae461f544fafe3, type: 3}
-  m_Name: Mushroom
+  m_Name: Umbrella
   m_EditorClassIdentifier: 
-  itemName: Mushroom
-  itemDescription: Base Item
-  icon: {fileID: 8793915729297761979, guid: 7eea9eb35327cbf33ae99da47179a4e9, type: 3}
+  itemName: Umbrella
+  itemDescription: Increases Defense By 10.
+  icon: {fileID: -5949067604679020556, guid: ebc67e67e8e2aa2f4af6f5bf014c175a, type: 3}
   isGold: 0
   stackSize: 3
-  damage: 3
-  speed: 5
-  stamina: 2
+  damage: 0
+  speed: 0
+  stamina: 0
   maxHealth: 0
-  currentHealth: 2
-  defense: 4
-  luck: 5
+  currentHealth: 0
+  defense: 10
+  luck: 0
   duration: 0

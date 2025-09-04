@@ -1,5 +1,6 @@
 using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -26,7 +27,19 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
         {
             if (eventData.button == PointerEventData.InputButton.Left)
             {
+                if (itemSO.currentHealth > 0)
+                {
+                    if (StatsManager.Instance.currentHealth >= StatsManager.Instance.maxHealth)
+                        return;
+                }
+
+
                 inventoryManager.UseItem(this);
+            }
+
+            else if (eventData.button == PointerEventData.InputButton.Right)
+            {
+                inventoryManager.DropItem(this);
             }
         }
     }
