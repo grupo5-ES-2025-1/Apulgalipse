@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c600138673c910c378ae461f544fafe3, type: 3}
   m_Name: LotteryTicket
   m_EditorClassIdentifier: 
-  itemName: 
-  itemDescription: 
-  icon: {fileID: 0}
+  itemName: LotteryTicket
+  itemDescription: Increases Luck.
+  icon: {fileID: -5758636815668455758, guid: 3015a4ddd1ddea113a748b326bf043bb, type: 3}
   isGold: 0
   stackSize: 3
   damage: 0
@@ -23,5 +23,5 @@ MonoBehaviour:
   maxHealth: 0
   currentHealth: 0
   defense: 0
-  luck: 0
+  luck: 10
   duration: 0

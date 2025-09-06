@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c600138673c910c378ae461f544fafe3, type: 3}
   m_Name: Water
   m_EditorClassIdentifier: 
-  itemName: 
-  itemDescription: 
-  icon: {fileID: 0}
+  itemName: Water
+  itemDescription: Increases Stamina
+  icon: {fileID: -4992777829455314354, guid: 559dc9e6aa413c65c9855663e9c9bf13, type: 3}
   isGold: 0
   stackSize: 3
   damage: 0
   speed: 0
-  stamina: 0
+  stamina: 10
   maxHealth: 0
   currentHealth: 0
   defense: 0
