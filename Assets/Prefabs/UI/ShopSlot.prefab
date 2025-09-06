@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4963098243433253444}
   - component: {fileID: 7445461229236740023}
   - component: {fileID: 757182587160428787}
+  - component: {fileID: 8794780719047062168}
   m_Layer: 5
   m_Name: ShopSlot
   m_TagString: Untagged
@@ -123,6 +124,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8794780719047062168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143655386509671546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e5488647bd61db5b88be6c9d72918f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSO: {fileID: 0}
+  itemNameText: {fileID: 562036041929570923}
+  priceText: {fileID: 2336359679816224066}
+  itemImage: {fileID: 4434416231775487943}
 --- !u!1 &3239848836814708371
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,10 +444,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
+  m_fontSize: 50
   m_fontSizeBase: 48
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
