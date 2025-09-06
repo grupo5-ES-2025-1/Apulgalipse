@@ -65,13 +65,13 @@ public class ShopInfo : MonoBehaviour
         itemDescriptionText.text = "";
     }
 
-    public void FollowMouse()
-    {
-        Vector3 mousePosition = Input.mousePosition;
-        Vector3 offset = new(10, -10, 0);
+    // public void FollowMouse()
+    // {
+    //     Vector3 mousePosition = Input.mousePosition;
+    //     Vector3 offset = new(10, -10, 0);
 
-        infoPanelRect.position = mousePosition + offset;
+    //     infoPanelRect.position = mousePosition + offset;
         
-    }
+    // }
 
 }

@@ -1463,9 +1463,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 604438644}
     m_Modifications:
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1976805574}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenWeaponShop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ShopKeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6896332058285379964, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
       propertyPath: m_Name
-      value: ShopButton (1)
+      value: WeaponButton
       objectReference: {fileID: 0}
     - target: {fileID: 7894745038899333510, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
       propertyPath: m_Pivot.x
@@ -2486,8 +2514,8 @@ CanvasGroup:
   m_GameObject: {fileID: 364823561}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!4 &369654115 stripped
 Transform:
@@ -14997,6 +15025,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1976805573}
   - component: {fileID: 1976805572}
+  - component: {fileID: 1976805575}
+  - component: {fileID: 1976805574}
   m_Layer: 0
   m_Name: Store Girl
   m_TagString: Untagged
@@ -15074,6 +15104,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 666083329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976805574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976805571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb064442ad7e6457a33f22a18193c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopCanvasGroup: {fileID: 2125918622}
+  shopManager: {fileID: 2125918627}
+  isShopOpen: 0
+--- !u!58 &1976805575
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976805571}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -1.3524218, y: 0}
+  m_Radius: 1.8524218
 --- !u!1 &1984711408
 GameObject:
   m_ObjectHideFlags: 0
@@ -23297,9 +23378,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125918621}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &2125918623
 MonoBehaviour:
@@ -23409,7 +23490,8 @@ MonoBehaviour:
     price: 1
   - itemSO: {fileID: 11400000, guid: 2c33ddf380d2a6afda08e9a98c0c1cd6, type: 2}
     price: 1
-  - itemSO: {fileID: 11400000, guid: 2c33ddf380d2a6afda08e9a98c0c1cd6, type: 2}
+  shopWeapons:
+  - itemSO: {fileID: 11400000, guid: 3e5b27976d96634d4b37a5b450c456e7, type: 2}
     price: 1
   shopSlots:
   - {fileID: 156852831}
@@ -23534,9 +23616,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 604438644}
     m_Modifications:
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1976805574}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenItemShop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ShopKeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126182225674929194, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6896332058285379964, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
       propertyPath: m_Name
-      value: ShopButton
+      value: ItemButton
       objectReference: {fileID: 0}
     - target: {fileID: 7894745038899333510, guid: 76f563e733ec4e6e0a4bdc0cfb72cbc6, type: 3}
       propertyPath: m_Pivot.x

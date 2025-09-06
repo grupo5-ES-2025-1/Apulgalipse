@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class ShopManager : MonoBehaviour
 {
-    [SerializeField] private List<ShopItems> shopItems;
+    [SerializeField] public List<ShopItems> shopItems;
+    [SerializeField] public List<ShopItems> shopWeapons;
 
     [SerializeField] private ShopSlot[] shopSlots;
 
@@ -11,10 +12,10 @@ public class ShopManager : MonoBehaviour
 
     private void Start()
     {
-        PopulateShopItems();
+        PopulateShopItems(shopItems);
     }
 
-    public void PopulateShopItems()
+    public void PopulateShopItems(List<ShopItems> shopItems)
     {
         for (int i = 0; i < shopItems.Count && i < shopSlots.Length; i++)
         {
