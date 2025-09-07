@@ -12,8 +12,20 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Floor 0.unity
+    path: Assets/Scenes/Floor 0 - Entry.unity
+    guid: 3e41c3282b758bb4d9ee00f84bec3dd5
+  - enabled: 1
+    path: Assets/Scenes/Floor 0 - Stairs.unity
     guid: dff2cdf9944763d4e8528ec631b33220
+  - enabled: 1
+    path: Assets/Scenes/Floor 1 - Entry.unity
+    guid: 64e53474fb07e6b4d99d94f8b629deb0
+  - enabled: 1
+    path: Assets/Scenes/Floor 1 - Stairs.unity
+    guid: 85e6206a04ca8774f85622286f87b37c
+  - enabled: 1
+    path: Assets/Scenes/Floor 2 - Entry.unity
+    guid: 6dad56123d2afff45bfe29ced1599ffc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
