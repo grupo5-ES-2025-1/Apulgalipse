@@ -23514,6 +23514,10 @@ MonoBehaviour:
     price: 20
   - itemSO: {fileID: 11400000, guid: 2c33ddf380d2a6afda08e9a98c0c1cd6, type: 2}
     price: 30
+  - itemSO: {fileID: 11400000, guid: 997bb91fe77edc875835b34646f72380, type: 2}
+    price: 35
+  - itemSO: {fileID: 11400000, guid: 3c6454975a7e1cf00baeefbe80fd31de, type: 2}
+    price: 15
   shopWeapons:
   - itemSO: {fileID: 11400000, guid: 3e5b27976d96634d4b37a5b450c456e7, type: 2}
     price: 1
