@@ -23,6 +23,6 @@ MonoBehaviour:
   stamina: 0
   maxHealth: 0
   currentHealth: 0
-  defense: 5
+  defense: 3
   luck: 0
   duration: 20

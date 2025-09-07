@@ -15,6 +15,10 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected Transform attackPoint;
     [SerializeField] protected LayerMask playerLayer;
 
+    public GameObject lootPrefab;
+    public ItemSO gold;
+
+
     protected bool canAttack = true;
 
     // Agora pode ser sobrescrito
@@ -31,7 +35,14 @@ public abstract class Enemy : MonoBehaviour
 
     protected virtual void Die()
     {
-        Destroy(gameObject); // pode trocar por animação de morte
+        if (lootPrefab != null)
+        {
+            Loot loot = Instantiate(lootPrefab, transform.position, Quaternion.identity).GetComponent<Loot>();
+            loot.canBePickedUp = true;
+            loot.Initialize(gold, 7 * (1 + StatsManager.Instance.luck) / 2 );
+
+        }
+        Destroy(gameObject); // pode trocar por animaï¿½ï¿½o de morte
     }
 
     protected bool IsPlayerInRange()

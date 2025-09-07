@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetMaxHealth(StatsManager.Instance.maxHealth);
     }
 
-    // Método genérico para alterar a vida (positivo ou negativo)
+    // Mï¿½todo genï¿½rico para alterar a vida (positivo ou negativo)
     public void ChangeHealth(int amount)
     {
         StatsManager.Instance.currentHealth += amount;
@@ -26,14 +26,19 @@ public class PlayerHealth : MonoBehaviour
             Die();
     }
 
-    // Método público para inimigos chamarem
+    // Mï¿½todo pï¿½blico para inimigos chamarem
     public void TakeDamage(int damage)
     {
-        Debug.Log($"Player levou {damage} de dano!");
-        ChangeHealth(-damage);
+        int damageTaken = damage - StatsManager.Instance.defense;
+        if (damageTaken <= 0)
+        {
+            damageTaken = 0;
+        }
+        Debug.Log($"Player levou {damageTaken} de dano!");
+        ChangeHealth(-damageTaken);
     }
 
-    // Método opcional para curar
+    // Mï¿½todo opcional para curar
     public void Heal(int amount)
     {
         ChangeHealth(amount);

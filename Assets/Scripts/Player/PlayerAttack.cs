@@ -71,7 +71,7 @@ public class PlayerAttack : MonoBehaviour
             case WeaponType.Hands:
             case WeaponType.Melee:
                 Debug.Log("Executando DealDamage (melee).");
-                DealDamage(weapon.Damage);
+                DealDamage(StatsManager.Instance.damage);
                 break;
 
             case WeaponType.Ranged:

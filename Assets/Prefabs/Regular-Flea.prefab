@@ -239,6 +239,8 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  lootPrefab: {fileID: 144792721869723511, guid: 117ab77946d780abea46c755d359b003, type: 3}
+  gold: {fileID: 11400000, guid: 768674ebf9c5465ca961763b789697e4, type: 2}
   moveSpeed: 3.5
   chaseRange: 6
   stopChaseRange: 10

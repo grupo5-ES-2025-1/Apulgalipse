@@ -65,8 +65,10 @@ public class InventoryManager : MonoBehaviour
     {
         if (itemSO.isGold)
         {
+            Debug.Log("Collecting Gold: " + quantity);
             gold += quantity;
             goldText.text = gold.ToString();
+            Debug.Log("Gold quantity: " + gold);
             return;
         }
 

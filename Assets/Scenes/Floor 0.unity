@@ -916,6 +916,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 311116122}
     m_Modifications:
+    - target: {fileID: 5581293271642429099, guid: b06e11f5d470a884185a994ccc35b230, type: 3}
+      propertyPath: gold
+      value: 
+      objectReference: {fileID: 11400000, guid: 768674ebf9c5465ca961763b789697e4, type: 2}
+    - target: {fileID: 5581293271642429099, guid: b06e11f5d470a884185a994ccc35b230, type: 3}
+      propertyPath: lootPrefab
+      value: 
+      objectReference: {fileID: 144792721869723511, guid: 117ab77946d780abea46c755d359b003, type: 3}
     - target: {fileID: 8341772280823549011, guid: b06e11f5d470a884185a994ccc35b230, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.10999966
@@ -3980,7 +3988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsUI: {fileID: 361319200}
   playerHealth: {fileID: 539345819}
-  damage: 1
+  damage: 2
   weaponRange: 0
   knockbackForce: 0
   knockbackTime: 0
@@ -3990,7 +3998,7 @@ MonoBehaviour:
   maxHealth: 30
   currentHealth: 30
   defense: 0
-  luck: 0
+  luck: 1
 --- !u!4 &539345821
 Transform:
   m_ObjectHideFlags: 0
@@ -4472,6 +4480,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7040899559248688999, guid: 4f2d7203b6d058f4c805fa45d791fcbb, type: 3}
+      propertyPath: gold
+      value: 
+      objectReference: {fileID: 11400000, guid: 768674ebf9c5465ca961763b789697e4, type: 2}
+    - target: {fileID: 7040899559248688999, guid: 4f2d7203b6d058f4c805fa45d791fcbb, type: 3}
+      propertyPath: lootPrefab
+      value: 
+      objectReference: {fileID: 144792721869723511, guid: 117ab77946d780abea46c755d359b003, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4710,6 +4726,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Girl-Zombie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9095612487462671189, guid: cfe0d6180ed108442b50a042c86ed9d6, type: 3}
+      propertyPath: gold
+      value: 
+      objectReference: {fileID: 11400000, guid: 768674ebf9c5465ca961763b789697e4, type: 2}
+    - target: {fileID: 9095612487462671189, guid: cfe0d6180ed108442b50a042c86ed9d6, type: 3}
+      propertyPath: lootPrefab
+      value: 
+      objectReference: {fileID: 144792721869723511, guid: 117ab77946d780abea46c755d359b003, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
