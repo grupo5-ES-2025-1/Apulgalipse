@@ -27,13 +27,13 @@ public class ShopInfo : MonoBehaviour
         itemDescriptionText.text = itemSO.itemDescription;
 
         List<string> stats = new List<string>();
-        if (itemSO.currentHealth > 0) stats.Add("Health: " + itemSO.currentHealth.ToString());
-        if (itemSO.maxHealth > 0) stats.Add("Max Health: " + itemSO.maxHealth.ToString());
-        if (itemSO.damage > 0) stats.Add("Damage: " + itemSO.damage.ToString());
-        if (itemSO.speed > 0) stats.Add("Speed: " + itemSO.speed.ToString());
-        if (itemSO.defense > 0) stats.Add("Defense: " + itemSO.defense.ToString());
-        if (itemSO.luck > 0) stats.Add("Luck: " + itemSO.luck.ToString());
-        if (itemSO.stamina > 0) stats.Add("Stamina: " + itemSO.stamina.ToString());
+        if (itemSO.currentHealth > 0) stats.Add("Health: +" + itemSO.currentHealth.ToString());
+        if (itemSO.maxHealth > 0) stats.Add("Max Health: +" + itemSO.maxHealth.ToString());
+        if (itemSO.damage > 0) stats.Add("Damage: +" + itemSO.damage.ToString());
+        if (itemSO.speed > 0) stats.Add("Speed: +" + itemSO.speed.ToString());
+        if (itemSO.defense > 0) stats.Add("Defense: +" + itemSO.defense.ToString());
+        if (itemSO.luck > 0) stats.Add("Luck: +" + itemSO.luck.ToString());
+        if (itemSO.stamina > 0) stats.Add("Stamina: +" + itemSO.stamina.ToString());
 
         if (stats.Count <= 0)
         {

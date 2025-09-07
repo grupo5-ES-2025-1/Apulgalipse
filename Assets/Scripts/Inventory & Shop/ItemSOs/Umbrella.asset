@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Umbrella
   m_EditorClassIdentifier: 
   itemName: Umbrella
-  itemDescription: Increases Defense By 10.
+  itemDescription: A sturdy umbrella that provides a surprising amount of defense
+    for 20 seconds.
   icon: {fileID: -5949067604679020556, guid: ebc67e67e8e2aa2f4af6f5bf014c175a, type: 3}
   isGold: 0
   stackSize: 3
@@ -22,6 +23,6 @@ MonoBehaviour:
   stamina: 0
   maxHealth: 0
   currentHealth: 0
-  defense: 10
+  defense: 5
   luck: 0
-  duration: 0
+  duration: 20

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Coxinha
   m_EditorClassIdentifier: 
   itemName: Coxinha
-  itemDescription: Restores HP
+  itemDescription: A crispy, fried snack that quickly mends your health.
   icon: {fileID: 1846495754625577932, guid: b36840e428eb56f518c4cfd68208f97e, type: 3}
   isGold: 0
   stackSize: 3
@@ -21,7 +21,7 @@ MonoBehaviour:
   speed: 0
   stamina: 0
   maxHealth: 0
-  currentHealth: 2
+  currentHealth: 10
   defense: 0
   luck: 0
   duration: 0

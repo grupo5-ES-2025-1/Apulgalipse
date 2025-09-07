@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: Mushroom
   m_EditorClassIdentifier: 
   itemName: Mushroom
-  itemDescription: Base Item
+  itemDescription: Curious-looking mushroom. Eating it makes you feel healthier and
+    permanently increases your max health.
   icon: {fileID: 8793915729297761979, guid: 7eea9eb35327cbf33ae99da47179a4e9, type: 3}
   isGold: 0
   stackSize: 3
-  damage: 3
-  speed: 5
-  stamina: 2
-  maxHealth: 0
-  currentHealth: 2
-  defense: 4
-  luck: 5
+  damage: 0
+  speed: 0
+  stamina: 0
+  maxHealth: 12
+  currentHealth: 0
+  defense: 0
+  luck: 0
   duration: 0

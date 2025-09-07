@@ -1106,8 +1106,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9.3, y: 26.4}
-  m_SizeDelta: {x: 6.1026, y: -12.644}
+  m_AnchoredPosition: {x: -8.8884, y: 9}
+  m_SizeDelta: {x: -17.7767, y: -32.722}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &134474924
 MonoBehaviour:
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -23479,17 +23479,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shopItems:
   - itemSO: {fileID: 11400000, guid: 3e5b27976d96634d4b37a5b450c456e7, type: 2}
-    price: 2
+    price: 50
   - itemSO: {fileID: 11400000, guid: dcb945a7b96fc2275aa3e8b1a9adf106, type: 2}
-    price: 1
+    price: 10
   - itemSO: {fileID: 11400000, guid: ca1c9cc4ab6d3c8649cc664378fc18a9, type: 2}
-    price: 1
+    price: 5
   - itemSO: {fileID: 11400000, guid: 905d429b11a4274dea6081140677ca30, type: 2}
-    price: 1
+    price: 70
   - itemSO: {fileID: 11400000, guid: 896e89732c7bf3b97aceed2d1fbebf17, type: 2}
-    price: 1
+    price: 20
   - itemSO: {fileID: 11400000, guid: 2c33ddf380d2a6afda08e9a98c0c1cd6, type: 2}
-    price: 1
+    price: 30
   shopWeapons:
   - itemSO: {fileID: 11400000, guid: 3e5b27976d96634d4b37a5b450c456e7, type: 2}
     price: 1

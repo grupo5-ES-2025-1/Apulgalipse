@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: LotteryTicket
   m_EditorClassIdentifier: 
   itemName: LotteryTicket
-  itemDescription: Increases Luck.
+  itemDescription: A scratched-off ticket. It does nothing on its own, but carrying
+    it makes you feel lucky.
   icon: {fileID: -5758636815668455758, guid: 3015a4ddd1ddea113a748b326bf043bb, type: 3}
   isGold: 0
   stackSize: 3
@@ -23,5 +24,5 @@ MonoBehaviour:
   maxHealth: 0
   currentHealth: 0
   defense: 0
-  luck: 10
+  luck: 5
   duration: 0
