@@ -35,6 +35,8 @@ public class InventoryManager : MonoBehaviour
             {
                 // Time.timeScale = 1;
                 statsOpen = false;
+                canvasGroup.blocksRaycasts = false;
+                canvasGroup.interactable = false;
                 canvasGroup.alpha = 0;
             }
             else
@@ -42,6 +44,8 @@ public class InventoryManager : MonoBehaviour
                 // Time.timeScale = 0;
                 statsOpen = true;
                 canvasGroup.alpha = 1;
+                canvasGroup.blocksRaycasts = true;
+                canvasGroup.interactable = true;
 
             }
         }
